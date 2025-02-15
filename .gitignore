@@ -1,3 +1,4 @@
+# Escludi i file di configurazione di IntelliJ e Android Studio
 *.iml
 .gradle
 /local.properties
@@ -7,12 +8,15 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# Escludi i file di sistema
 .DS_Store
+
+# Escludi le cartelle di build
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
 
-# Escludi le credenziali di Google Play
+# Escludi le credenziali sensibili (ad esempio, per Google Play)
 app/app-ifoc-c188dfb47005
